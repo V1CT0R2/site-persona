@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container-fluid pg-0">
+    <header >
+      <nav >
+        <!--Navbar-->
+       <div class="row">
+          <div class="col logo">
+            <img width="90px class="borda" src="img/MicrosoftTeams-image.png" alt=""> 
+          </div>
+        <div class="col">
+          <div class="nvlink">
+            <a href="home.html" class="navlink">Home</a>
+            <a href="cardapio.html" class="navlink">Cardapio</a>
+            <a href="main.html" class="navlink">Personalização</a>
+            </div>
+        </div>
+        <div class="col">
+          <div class="botão">
+            <button class="estilobotao"><a class="textobotao" href="IndexLogin.html">Entrar</a></button>
+          </div>
+        </div>
+       </div>
+      </nav>
+     </header>
+     <br>
+       <!--Menu Hambúrguer-->
+     <div class="menumobile">
+     <nav class="navbar lo">
+      <div class="container-fluid lo">
+        <img width="75px" src="img/MicrosoftTeams-image.png" alt="">
+        <button class="navbar-toggler" id="nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon" id="nav"></span>
+        </button>
+        <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header lo">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body lo">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" id="clcurrent" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="cltxt" href="cardapio.html">Cardapio</a>
+              </li>
+               <li class="nav-item">
+                <a class="nav-link" id="cltxt" href="main.html">Personalização</a>
+              </li>
+          </div>
+        </div>
+      </div>
+    </nav>
+     </div>
+     <!--Opções-->
+      <div class="container-fluid ">
+        <div class="row p-0 " id="card">
+          <div class="col" id="card">
+            <div class="card text-center " id="decocard"  >
+              <img src="img/pizza9.jpg" class="card-img-top " alt="..."  >
+              <div class="card-body">
+                <h5 class="card-title">Pizza de Pepperoni Completa</h5>
+                <p class="card-text">A Pizza contem pepperoni, azeitonas pretas, pimentões, queijo e tomates.</p>
+                <p class="card-text price text-start" style="font-size:40px; font-weight:600;">R$30.00</p>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard" >
+              <img src="img/pizza.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza de Queijo e Cogumelos</h5>
+                <p class="card-text">A Pizza contem queijo, cogumelos, pepinos, pimentões e tomates.
+                </p>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard" >
+              <img src="img/pizza2.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza de Vegetais legumes Completa</h5>
+                <p class="card-text">A pizza contem cenouras, cebolas, tomates, queijo e temperos.</p>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row p-0" id="card">
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard" >
+              <img src="img/pizza8.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza de Vegetais Simples</h5>
+                <p class="card-text">A pizza contem pimentões, pepino, cogumelos, tomates, molho de tomate, queijo.</p>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <br>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard" >
+              <img src="img/pizza7.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza de Tomate e Queijo Completa</h5>
+                <p class="card-text">A pizza contem molho de tomate, tomates, queijos dois tipos.</p>
+                <br>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard" >
+              <img src="img/pizza3.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizzaa de Pepperoni e Tomate</h5>
+                <p class="card-text">A pizza contem pepperoni, tomate cereja, mussarela.</p>
+                <br>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row p-0" id="card">
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard">
+              <img src="img/pizza4.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza de Tomate e Queijo Simple</h5>
+                <br>
+                <p class="card-text">A pizza contem tomate, molho de tomate e um tipo de queijo.</p>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <br>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard">
+              <img src="img/pizza5.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza Portuguesa de Presunto Completa</h5>
+                <br>
+                <p class="card-text">A pizza contem presunto, mussarela e azeitonas.</p>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <br>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+          <div class="col" id="card">
+            <div class="card text-center" id="decocard" >
+              <img src="img/pizza6.webp" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Pizza de Cogumelos e Azeitonas Pretas</h5>
+                <p class="card-text">A Pizza contem azeitonas pretas, cogumelos e mussarela.</p>
+                <p class="card-text price text-start" style="font-size:40px ;font-weight:600">R$30.00</p>
+                <br>
+                <a href="#" class="btn btn-primary btn-lg" id="buybtn">Compre</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+    <style>
+      body{
+        background-color: rgb(56, 18, 1);
+      }
+    </style>
+</body>
+</html>

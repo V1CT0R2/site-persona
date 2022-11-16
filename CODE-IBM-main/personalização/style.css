@@ -1,0 +1,195 @@
+
+
+
+/*Navbar*/
+
+.navbarlogo{
+    text-align: start;
+    
+    
+}
+.nvlink{
+    text-align: center;
+    text-decoration: none;
+    margin-top: 23px;
+}
+.botão{
+    text-align: end;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 23px;
+    text-align: center;
+    
+}
+.logo{
+    text-align: center;
+    padding: 0px;
+}
+.estilobotao{
+    background-color: transparent;
+    border: none;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 4px;
+    text-align: center;
+    text-decoration: none;
+  
+}
+header{
+    background-color: #875b49;  
+    border-radius: 5px;
+    box-shadow: 4px 5px 10px 10px #240b0179;
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 600px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+    transition: 0.8s; 
+}
+.navlink:hover{
+    background-color: #a77d54;
+    color: white;
+}
+.nvlink{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.textobotao{
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: white;
+    font-weight: 600px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+    transition: 0.8s; 
+}
+.textobotao:hover{
+    background-color: #b4000f;
+    color: white;
+}
+.menumobile{
+ display: none;
+}
+    /*Navbar Responsívo*/
+@media  screen and (max-width: 795px){
+    header{
+        display: none;
+        
+    }
+    .menumobile{
+        display: block;
+        
+    }
+    img{
+        display: block;
+    }
+}
+.teste{
+    background-image: url("img/fundo.png");
+}
+.lo{
+    background-color:  #875b49;
+    
+}
+.offcanvasNavbar{
+    background-color:  #875b49;
+}
+body{
+    background-color:  #875b49;
+}
+#cltxt, #offcanvasNavbarLabel{
+    color: white;
+    font-weight: 400px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+    transition: 0.8s; 
+    
+}
+#clcurrent{
+    color: white;
+    font-weight: 400px;
+    padding: 5px 5px;
+    border-radius: 10px;
+    margin-top: 4px;
+    cursor: pointer;
+    transition: 0.8s; 
+}
+#nav{
+    color: white;
+}
+#cltxt:hover{
+    background-color: #a77d54;
+    color: white;
+}
+#clcurrent:hover{
+    background-color: #a77d54;
+    color: white;
+}
+    /*Cardápio*/
+
+    /*Cardápio Responsivo*/
+@media  screen and (max-width: 720px){
+    #card{
+        flex-direction: column;
+        font-size: 15px;
+    }
+}
+   /*Personalização*/
+input[type="checkbox"]{
+    height: 20px;
+    width: 20px;
+}
+   /*Opção Selecionada*/
+#figure{
+    margin-left: 10px;
+    margin-top: 10px;
+    z-index: 100;
+    border: 0px;
+    box-shadow: 0px 0px 0px 0px;
+}
+#preço{
+    z-index: 50;
+    padding:5px 12px;
+    border-radius:10px;
+    background-color: green;
+    /* estilo de posicionamento e largura*/
+    min-width: 15%; 
+    max-width: 25%;
+    position: absolute;
+    margin-top: 10px;
+    right: 10px;
+    left: 40%;
+    height: 10%;
+    text-align: end;
+}
+.price{
+    color: green;
+}
+#buybtn{
+    background-color: #b4000f;
+    border: none;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#buybtn:hover{
+    background-color: #df0719;
+}
+#decocard{
+    padding: 0.5rem 1rem;
+    box-shadow: 4px 5px 10px 10px #240b0196;
+}
+#card{
+    padding: 2rem 4rem;
+   
+}
